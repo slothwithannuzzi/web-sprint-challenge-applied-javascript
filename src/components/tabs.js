@@ -49,7 +49,7 @@ const tabsAppender = (selector) => {
   .catch((err) => {
     console.error('Invalid Data')
   })
-  //
+  
 }
 
 export { Tabs, tabsAppender }
