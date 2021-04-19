@@ -41,6 +41,9 @@ const Card = (article) => {
   authorDiv.appendChild(imgContainer, authorSpan);
   imgContainer.appendChild(imgElement);
 
+  cardDiv.addEventListener('click', event => {
+    console.log(cardDiv);
+  })
   return cardDiv;
 }
 
